@@ -90,6 +90,7 @@ public class Mugshot extends Activity {
 					if (e == null) {
 						Mugshot.targets.addAll(objects);
 					} else {
+						e.printStackTrace();
 						Log.i("Mugshot", "Retrieving Targets failed.");
 					}
 				}
